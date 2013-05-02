@@ -10,7 +10,7 @@
 
 Name:           %{php_base}-pecl-ssh2
 Version:        0.11.3
-Release:        1%{?dist}
+Release:        2.ius%{?dist}
 Summary:        Bindings for the libssh2 library
 
 License:        PHP
@@ -124,5 +124,8 @@ fi
 
 
 %changelog
+* Thu May 02 2013 Ben Harper <ben.harper@rackspace.com> - 0.11.3-2.ius
+- porting from github.com/mmckinst/php54-pecl-ssh2
+
 * Thu Feb 14 2013 Mark McKinstry <mmckinst@nexcess.net> - 0.11.3-1
 - build RPM off of Fedora 18 0.11.3-2
